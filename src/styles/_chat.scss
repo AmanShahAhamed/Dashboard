@@ -1,0 +1,33 @@
+
+.chat-heading{
+        @include flex(row,unset,unset,2rem);
+        margin: 1rem;
+        padding: 1rem;
+        h2{
+       @include heading()
+        }
+
+}
+
+.chat-bar{
+        @include flex(column,unset,unset)
+}
+
+.user-info{
+        @include flex(row,flex-start,unset,2rem);
+        background-color: rgb(226, 222, 222);
+        width: 80%;
+        padding: 1rem;
+        border-radius: 5px;
+        
+        >img{
+                width: 4rem;
+                height: 4rem;
+                object-fit: contain;
+                border-radius: 10px;
+        }
+
+        h3,h2{@include heading}
+        h3{color: grey;}
+
+}

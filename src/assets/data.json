@@ -1,0 +1,52 @@
+{
+        "categories":[
+                {
+                        "value":40,
+                        "heading":"Laptops"
+                },
+                {
+                        "value":100,
+                        "heading":"Shoes"
+                },
+                {
+                        "value":80,
+                        "heading":"Camera"
+                },
+                {
+                        "value":70,
+                        "heading":"HeadPhones"
+                }
+        ],
+
+   "transaction":[
+          
+          {
+                "id":"cajnc",
+                "quantity":617,
+                "amount":89788977,
+                "discount":908,
+                "status":"Processing"
+          },
+          {
+                "id":"cajnc",
+                "quantity":617,
+                "amount":89788977,
+                "discount":908,
+                "status":"Processing"
+          },
+          {
+                "id":"caaadadjnc",
+                "quantity":617,
+                "amount":89788977,
+                "discount":908,
+                "status":"Shipped"
+          },
+          {
+                "id":"cacdacjnc",
+                "quantity":617,
+                "amount":89788977,
+                "discount":908,
+                "status":"Delivered"
+          }
+   ]
+}
