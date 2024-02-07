@@ -16,10 +16,10 @@ function App() {
     <Router>
       <Suspense fallback={<Loader />}>
         <Routes>
-          <Route path="/admin/dashboard" element={<Dashboard />} />
-          <Route path="/admin/product" element={<Product />} />
-          <Route path="/admin/customer" element={<Customer />} />
-          <Route path="/admin/transaction" element={<Transaction />} />
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/product" element={<Product />} />
+          <Route path="/customer" element={<Customer />} />
+          <Route path="/transaction" element={<Transaction />} />
           {/* charts */}
           <Route path="/admin/chart/bar" element={<BarCharts />} />
           <Route path="/admin/chart/pie" element={<PieCharts />} />

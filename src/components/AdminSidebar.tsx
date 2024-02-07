@@ -46,26 +46,21 @@ const DashboardItem = ({ location }: { location: Location }) => (
   <div>
     <h5>Dashboard</h5>
     <ul>
+      <Li url="/" name="Dashboard" Icon={RiDashboardFill} location={location} />
       <Li
-        url="/admin/dashboard"
-        name="Dashboard"
-        Icon={RiDashboardFill}
-        location={location}
-      />
-      <Li
-        url="/admin/product"
+        url="/product"
         name="Product"
         Icon={RiShoppingBag3Fill}
         location={location}
       />
       <Li
-        url="/admin/customer"
+        url="/customer"
         name="Customer"
         Icon={IoIosPeople}
         location={location}
       />
       <Li
-        url="/admin/transaction"
+        url="/transaction"
         name="Transaction"
         Icon={AiFillFileText}
         location={location}
